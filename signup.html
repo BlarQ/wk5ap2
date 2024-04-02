@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./damola/collins.css">
+    <title>Sign Up Page</title>
+</head>
+<body class="bg-[url(../media/bg.jpg)] bg-cover">
+    <form>
+        <fieldset class="border-4 border-red-200 rounded-xl flex justify-center w-6 mx-auto my-[10%] bg-yellow-100">
+            <legend class="text-center  text-blue-400 text-3xl capitalize">Sign Up</legend>
+            <ul class="m-8">
+                <li class="my-3">
+                    <label for="full" class="">Full Name</label>
+                    <input type="text" name="fullName" id="full" placeholder="John Doe" class="rounded-lg outline-none">
+                </li>
+                <li class="my-3">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" required class="rounded-lg outline-none">
+                </li>
+                <li class="my-3">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="tel" id="phone" placeholder="081^^^^^^^^" class="rounded-lg outline-none">
+                </li>
+                <li class="my-3">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="Male" id="gender">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="Male" id="gender">
+                </li>
+                <li>
+                    <button type="submit" class="border-2 w-[180px] border-blue-500 px-4 py-[6px] rounded-xl bg-blue-400 hover:text-white hover:bg-red-400 hover:border-red-500 hover:ease-in">Submit</button>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
